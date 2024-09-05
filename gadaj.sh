@@ -1,0 +1,1 @@
+onnx=./piper-voices/pl/pl_PL/gosia/medium/pl_PL-gosia-medium.onnx; json=./piper-voices/pl/pl_PL/gosia/medium/pl_PL-gosia-medium.onnx.json; echo "co teraz?" | piper -m $onnx -c $json --output_file - | aplay
