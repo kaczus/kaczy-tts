@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 onnx=$PWD/piper-voices/pl/pl_PL/gosia/medium/pl_PL-gosia-medium.onnx
 json=$PWD/piper-voices/pl/pl_PL/gosia/medium/pl_PL-gosia-medium.onnx.json
 while read in; do
