@@ -12,6 +12,7 @@ for d in $deps; do
 done
 [ -n "$e" ] && echo "Brakuje narzędzi, doinstaluj to co brakuje wyżej" && exit 1
 echo "Pobieram głosy"
+git clone https://huggingface.co/rhasspy/piper-voices
 pushd piper-voices/ >/dev/null
 git lfs pull -I en/en_GB/
 git lfs pull -I pl/pl_PL/
